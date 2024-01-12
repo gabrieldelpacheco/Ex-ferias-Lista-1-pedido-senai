@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+#menu_li {
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+    box-shadow: 10px 5px 5px black ;
+    color: blueviolet;
+    font-weight: 700;
+    padding: 10px;
+}
+
+#paragrafo {
+    padding: 50px 30px;
+    text-align: left;
+    font-weight: 500;
+    width: 500px;
+}
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(30, 75, 30);
+    padding: 30px 20px;
+}
+
+#title {
+    color: white;
+}
+
+#sobre_meio {
+    display: flex;
+    justify-content: space-around;
+}
+
+#sobre_img {
+    width: 350px;
+    height: 350px;
+    object-fit:fill;
+    border-radius: 50%;
+}
+
+#sobre_p {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: white;
+    padding-left: 15px;
+}
